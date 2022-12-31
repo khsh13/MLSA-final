@@ -9,8 +9,8 @@
     margin: 0;
   }
 
-  .__container{
-   margin-top:8vh;
+  .container{
+    margin: 0;
   }
 
   #pagetransition {
