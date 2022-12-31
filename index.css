@@ -8,10 +8,9 @@
     background:white;
     margin: 0;
   }
-
-  .container{
-    margin: 0;
-  }
+  .__container{
+    margin-top:8vh;
+   }
 
   #pagetransition {
     position: fixed;
