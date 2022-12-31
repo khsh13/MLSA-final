@@ -8,6 +8,11 @@
     background:white;
     margin: 0;
   }
+
+  .container{
+    margin: 0;
+  }
+
   #pagetransition {
     position: fixed;
     top: 0;
@@ -114,11 +119,11 @@
 }
 
 
-.navButtonbg{
- /* height:35px;
-  width:35px;*/
-/*  align-self: flex-end;*/
-}
+/* .navButtonbg{
+  height:35px;
+  width:35px;
+  align-self: flex-end; 
+} */
 
 .navButton{
   font-size:30px;
@@ -149,12 +154,13 @@
   width: 35px;
   margin-left: 20px;
 }
-.logo_name{
-/*  right: 60px;*/
-/*margin-left: 100px;*/
-/*right: 2px;*/
-/*z-index: 998;*/
-}
+
+/* .logo_name{
+ right: 60px;
+margin-left: 100px;
+right: 2px;
+z-index: 998;
+} */
 
 .navname1{
   position: fixed;

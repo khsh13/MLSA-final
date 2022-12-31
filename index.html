@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="preloader.css" rel="stylesheet">
+    <!-- Link all the css files here -->
+    <link href="index.css" rel="stylesheet">
    
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <title>Document</title>
+
+    <title>MLSA</title>
   
 </head>
 <body onclick="closepreloder()">
@@ -29,44 +31,45 @@
             <img id="vic-gb" class="vic-gb" src="MLSA_logo-transformed.png"/>
         </div>
     </div>
-    
+    <!-- Preloader content end -->
+
     <!-- sidenav content -->
     
-<div id="mySidenav" class="sidenav">
-<div>
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-</div>
-<div class="navitems">
-  <a href="#">Home</a>
-  <a href="#">About Us</a>
-  <a href="#">Goals</a>
-  <a href="#">Events</a>
-  <a href="#">FAQ</a>
+    <div id="mySidenav" class="sidenav">
+    <div>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    </div>
+    <div class="navitems">
+      <a href="#">Home</a>
+      <a href="#">About Us</a>
+      <a href="#">Goals</a>
+      <a href="#">Events</a>
+      <a href="#">FAQ</a>
 
-</div>
+    </div>
 
 
-</div>
-<div class="navbody">
-  <div >
-    <img class="navlogo" src="MLSA_logo-transformed.png">
   </div>
-  <div class="logo_name">
-    <span id="navname " class="navname1">MLSA-Indira Gandhi Delhi Technical University for Women</span>
-    <span id="navname" class="navname2" > MLSA-IGDTUW</span>
+  <div class="navbody">
+    <div >
+      <img class="navlogo" src="MLSA_logo-transformed.png">
+    </div>
+    <div class="logo_name">
+      <span id="navname " class="navname1">MLSA-Indira Gandhi Delhi Technical University for Women</span>
+      <span id="navname" class="navname2" > MLSA-IGDTUW</span>
 
-   <!--  <script type="text/javascript">
-        if (window.innerWidth < 500 px) {
-            document.getElementById("navname").innerHTML="MLSA IGDTUW";
-        }
-    </script> -->
+    <!--  <script type="text/javascript">
+          if (window.innerWidth < 500 px) {
+              document.getElementById("navname").innerHTML="MLSA IGDTUW";
+          }
+      </script> -->
+    </div>
+    <div class="navButtonbg">
+      <span  id="navButton"class="navButton"  onclick="openNav()">&#9776;</span>
+    </div>
   </div>
-<div class="navButtonbg">
-<span  id="navButton"class="navButton"  onclick="openNav()">&#9776;</span>
-</div>
-</div>
+
 <!--Home-->
-
 
 
   
@@ -83,9 +86,6 @@ function closeNav() {
   document.body.style.backgroundColor = "rgba(0,0,0,0)";
 }
 </script>
-   
-
-
     <!-- sidenav content end -->
 
     <!-- social media -->
@@ -104,45 +104,40 @@ function closeNav() {
     </a>
 
  </div>
-
- <div id="includedContent"></div>
-<br>
- <div id="includeGoal"></div>
- <br>
- <div id="includeAbout"></div>
- <br>
- <div id="includeEvent"></div>
- <br>
- <div id="includeTeam"></div>
-
-
-
-
     <!-- social media content end -->
 
 
 
+    <!-- Everything should come inside the container and 
+    no one should change the css of container. -->
+
+    <!-- Write your classes and ids in such a way that it 
+    doesn't clash with any other class. eg. cards_events, cards_team -->
+  
+  <main class="container">
+
+
+
+
+
+
+  </main>
+
+
+
       
-    <div id="bg"></div>
+    <!-- Put all the script tags here -->
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.9.8/TweenMax.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
     crossorigin="anonymous"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script src="preloader.js"></script>
+    <script src="index.js"></script>
 
     <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
-    <script> 
-      $(function(){
-        $("#includedContent").load("./homePageNewMsc/index.html"); 
-        $("#includeAbout").load("about_us.html"); 
-        $("#includeGoal").load("goals.html"); 
-        $("#includeEvent").load("events.html"); 
-        $("#includeTeam").load("team.html"); 
 
-      });
-      </script>
   
 </body>
 </html>
