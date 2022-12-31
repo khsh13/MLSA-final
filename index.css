@@ -126,12 +126,15 @@
 } */
 
 .navButton{
+   height:35px;
+  width:35px;
   font-size:30px;
   font-weight: 600;
   cursor:pointer;
   z-index:998;
   position: fixed;
-  top:5px;
+  top:4vh;
+  transform: translate(0%,-50%);
   right:5%;
 
 
@@ -146,13 +149,18 @@
   align-content: center;
   display: flex;
   flex-direction: row;
+  position: fixed;
 /*  flex-wrap: wrap;*/
+border-bottom: 1px solid lightgrey;
   
 }
 .navlogo{
   height: 35px;
   width: 35px;
-  margin-left: 20px;
+  margin-left: 30px;
+  position: fixed;
+  top:4vh;
+  transform: translate(0%,-50%);
 }
 
 /* .logo_name{
@@ -165,8 +173,9 @@ z-index: 998;
 .navname1{
   position: fixed;
   right:7% ;
-  top:15px;
-  margin-right:10px;
+  top:4vh;
+  transform: translate(0%,-50%);
+  margin-right:30px;
   font-weight: 600;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -176,8 +185,9 @@ z-index: 998;
   visibility: hidden;
   position: fixed;
   right:10% ;
-  top:15px;
-  margin-right:10px;
+  top:4vh;
+  transform: translate(0%,-50%);
+  margin-right:30px;
   font-weight: 700;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -187,8 +197,8 @@ z-index: 998;
 
 .navitems{
   display: flex;
-  align-items: center;
-  align-content: center;
+/*  align-items: center;*/
+/*  align-content: center;*/
   flex-direction: column;
 }
 
@@ -209,7 +219,7 @@ visibility: hidden;
   }
 
 .navbody{
-  height:7vh;
+  height:8vh;
 }
 }
 
